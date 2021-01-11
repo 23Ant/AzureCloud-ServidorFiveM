@@ -14,13 +14,13 @@ Quando entrarmos na configuração da VM, vamos em, grupo de recursos, criar nov
 print2
 
 Preencha os dados da sua maquina: 
-1- Nome: Coloque o nome do seu servidor de FiveM.
-2- Região: deixe a recomendada pela Azure.
-3- Imagem: Imagem vai ser o sistema operacional que vamos utilizar para rodar a nossa base(rp). Como ela não roda no Linux por conta do HEIDISQL, recomendamos que você utilize o windows R2 server (se você tiver um conhecimento mais avançado). Caso contrario, utilize o Windows 10 Desktop.
-4- Tamanho: Para rodar um servidor com 64 pessoas, selecione a opção Standar_ds1_v2 - 1 vcu, 3.5gb (ram). No plano gratuito, vem uma configuração mais baixa. Porém você vai conseguir rodar a base no mesmo jeito, com mais dificuldade na hora de configuração do seu servidor (server.cfg, resources, navegador e HEIDISQL).
+<p>1- Nome: Coloque o nome do seu servidor de FiveM.</p>
+<p>2- Região: deixe a recomendada pela Azure.</p>
+<p>3- Imagem: Imagem vai ser o sistema operacional que vamos utilizar para rodar a nossa base(rp). Como ela não roda no Linux por conta do HEIDISQL, recomendamos que você utilize o windows R2 server (se você tiver um conhecimento mais avançado). Caso contrario, utilize o Windows 10 Desktop.</p>
+<p>4- Tamanho: Para rodar um servidor com 64 pessoas, selecione a opção Standar_ds1_v2 - 1 vcu, 3.5gb (ram). No plano gratuito, vem uma configuração mais baixa. Porém você vai conseguir rodar a base no mesmo jeito, com mais dificuldade na hora de configuração do seu servidor (server.cfg, resources, navegador e HEIDISQL).</p>
 
-#######ATENÇÃO########
-5- Admin: Nome de usuario e senha da sua MÁQUINA VIRTUAL, não esqueça de forma alguma o login e senha (anote em algum lugar), para não perder o acesso da sua maquina com suas informações e dados do servidor.
+<p>#######ATENÇÃO########</p>
+<p>5- Admin: Nome de usuario e senha da sua MÁQUINA VIRTUAL, não esqueça de forma alguma o login e senha (anote em algum lugar), para não perder o acesso da sua maquina com suas informações e dados do servidor.</p>
 
 print3
 
