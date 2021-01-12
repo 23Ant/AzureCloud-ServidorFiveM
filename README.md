@@ -7,7 +7,8 @@ CRIAÇÃO DA VM
 
 No Azure, vamos buscar por MÁQUINAS VIRTUAIS e clicar em adicionar. Em seguida, clicamos em maquina virtual.
 
-print1
+![1-AdicionarVM](https://user-images.githubusercontent.com/58913096/104278811-f6087680-5487-11eb-829f-6d6f0b47b21b.png)
+
 
 Quando entrarmos na configuração da VM, vamos em, grupo de recursos, criar novo e depois colocamos o nome do seu grupo de recursos e clique em adicionar.
 
