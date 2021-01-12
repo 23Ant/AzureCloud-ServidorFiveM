@@ -12,7 +12,8 @@ No Azure, vamos buscar por MÁQUINAS VIRTUAIS e clicar em adicionar. Em seguida,
 
 Quando entrarmos na configuração da VM, vamos em, grupo de recursos, criar novo e depois colocamos o nome do seu grupo de recursos e clique em adicionar.
 
-print2
+![2-CriandoGR](https://user-images.githubusercontent.com/58913096/104278939-310aaa00-5488-11eb-9893-daf055fdf4c6.png)
+
 
 Preencha os dados da sua maquina: 
 <p>1- Nome: Coloque o nome do seu servidor de FiveM.</p>
@@ -23,36 +24,48 @@ Preencha os dados da sua maquina:
 <p>#######ATENÇÃO########</p>
 <p>5- Admin: Nome de usuario e senha da sua MÁQUINA VIRTUAL, não esqueça de forma alguma o login e senha (anote em algum lugar), para não perder o acesso da sua maquina com suas informações e dados do servidor.</p>
 
-print3
+![3-Configurando VM](https://user-images.githubusercontent.com/58913096/104278988-4c75b500-5488-11eb-96c7-3a7dd9a7b098.png)
+
 
 Habilitando portas: selecione todas as alternativas que aparecer na opção "Selecione as portas de entrada" e em portas de entrada públicas você permite o acesso das portas selecionadas, para que qualquer um consiga acessar seu servidor. 
 
 Terminando essa parte, pule para avançar discos. Deixe a opção de SSD Premium, ele tem espaço suficiente para armazenar sua base de RP, scripts e arquivos de configuração.
 
-print4
+![4-Habilitando ortas](https://user-images.githubusercontent.com/58913096/104279046-6adbb080-5488-11eb-863a-3072480a28b7.png)
+
 
 Na parte de redes da VM, não altere nada e verifique se as portas estão habilitadas (HTTP, HTTPS, SSH E RDP).
 Avance.
 
-print5
+![5-Habilitando redes](https://user-images.githubusercontent.com/58913096/104279090-7fb84400-5488-11eb-923e-d7fb13dfd00d.png)
+
 
 Configure sua base para não ficar online 24hrs nesta pagina de monitoramento, para você não ser cobrado quando seu servidor não estiver sendo utilizado.
 
 Terminando esta parte, pulamos para opção revisar+criar.
 
-print6
+![7-Desligamento e backu automatico](https://user-images.githubusercontent.com/58913096/104279141-9363aa80-5488-11eb-80d0-481fa2bac8aa.png)
+
 
 Se atente o preço que vai ser cobrado pelo seu uso, e revise todas as configurações que você realizou na criação da sua VM. Após isso, clique em criar.
 
-print7
+![8 - revisar e criar](https://user-images.githubusercontent.com/58913096/104279213-ae361f00-5488-11eb-8d64-fc626f2f3640.png)
 
 Na pagina inicial do azure, sua base ira aparecer com este icone, selecione a opção e clique em iniciar
 
-print8
+![9 - acesso vm](https://user-images.githubusercontent.com/58913096/104279243-bbeba480-5488-11eb-9acc-083d2dbafbe6.png)
+
 
 Em conectar, selecione a opção RDP e instale na opção "Baixar arquivo RDP"
 
-print9
+![12 - Baixar arquivo rd](https://user-images.githubusercontent.com/58913096/104279460-1a188780-5489-11eb-9d98-a4d3434ff0d1.png)
+
+
+![10 - iniciar vm](https://user-images.githubusercontent.com/58913096/104279293-d02fa180-5488-11eb-804b-565ba139d216.png)
+
+![11 - selecione a ocao RD](https://user-images.githubusercontent.com/58913096/104279372-f35a5100-5488-11eb-8b04-4f94cbffdf87.png)
+
+
 
 No seu computador, vá até donwloads (ou no lugar que você instalou sua VM em RDP). Selecione a opção do computador, ele vai abrir uma aba de conexão remota e você clica em conectar.
 
