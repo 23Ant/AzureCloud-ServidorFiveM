@@ -58,10 +58,9 @@ Na pagina inicial do azure, sua base ira aparecer com este icone, selecione a op
 
 Em conectar, selecione a opção RDP e instale na opção "Baixar arquivo RDP"
 
-![12 - Baixar arquivo rd](https://user-images.githubusercontent.com/58913096/104279460-1a188780-5489-11eb-9d98-a4d3434ff0d1.png)
-
-
 ![10 - iniciar vm](https://user-images.githubusercontent.com/58913096/104279293-d02fa180-5488-11eb-804b-565ba139d216.png)
+
+![12 - Baixar arquivo rd](https://user-images.githubusercontent.com/58913096/104279460-1a188780-5489-11eb-9d98-a4d3434ff0d1.png)
 
 ![11 - selecione a ocao RD](https://user-images.githubusercontent.com/58913096/104279372-f35a5100-5488-11eb-8b04-4f94cbffdf87.png)
 
@@ -69,39 +68,54 @@ Em conectar, selecione a opção RDP e instale na opção "Baixar arquivo RDP"
 
 No seu computador, vá até donwloads (ou no lugar que você instalou sua VM em RDP). Selecione a opção do computador, ele vai abrir uma aba de conexão remota e você clica em conectar.
 
-print10
+![13 - Iniciando conexao RD](https://user-images.githubusercontent.com/58913096/104280659-0a9a3e00-548b-11eb-8e9d-a6b98f9ee8bf.png)
+
 
 Vá até mais opções; usar conta uma conta diferente; digite seu login e senha e clique em ok.
 
-print11
+![14 - login](https://user-images.githubusercontent.com/58913096/104280704-1ab21d80-548b-11eb-975b-d5899566861f.png)
+
+![15 - senha](https://user-images.githubusercontent.com/58913096/104280884-5d73f580-548b-11eb-9d94-4ca2c6dc7ec3.png)
+
+
 
 Ignore a notificação de certificado e clique em sim.
 
-print12
+![15 - ignore certificado](https://user-images.githubusercontent.com/58913096/104280834-492ff880-548b-11eb-9056-b2278db72331.png)
+
 
 Com a maquina acessada, permita as opções que irão aparecer. Como: descobrimento de redes, que vai aparecer na tela. Acesse o Explorer e instale sua base, XAMP e HEIDISQL.
 
-print13
+![16 - maquina acessada](https://user-images.githubusercontent.com/58913096/104281039-990ebf80-548b-11eb-89a0-b4efc3be6c3e.png)
+
+
 
 Logo após, pesquise sobre firewall na aba de pesquisa do Windows. Ao entrar na pagina de configuração de firewall, entre em todas as opções circuladas a baixo e deixe desligado (off) todas as opções.
 
-print14
+![17 - desabilitando firewall](https://user-images.githubusercontent.com/58913096/104281102-b2177080-548b-11eb-9dc2-73514686b326.png)
+
 
 Feito isso, confira se todas as opções de firewall estão com um X vermelho sobre elas. Após ter a confirmação que o firewall está desligado, vamos habilitar as portas da VM e permitir o acesso de players no seu servidor de RP.
 
-print15
+![18 - desabilitado firewall](https://user-images.githubusercontent.com/58913096/104281131-bcd20580-548b-11eb-863e-f25c68330ce2.png)
+
+![19 - ocoes firewall off](https://user-images.githubusercontent.com/58913096/104281159-cb202180-548b-11eb-8576-4ed3fb31d70a.png)
+
 
 Na pagina do Azure, vamos acessar o painel de redes, e em seguida, clicar em "Adicionar regra de porta de entrada"
 
-print16
+![20 - liberando orta 30120](https://user-images.githubusercontent.com/58913096/104281199-e25f0f00-548b-11eb-8def-30b07699f480.png)
+
 
 Altere: Intervalos de porta de destino para (30120), prioridade para (310) e o nome do seu servidor. Deixe todas as opções em ANY e permitir.
 
-print 17
+![21 - orta liberada 30120](https://user-images.githubusercontent.com/58913096/104281234-f4d94880-548b-11eb-9ec4-43bcbc12db77.png)
+
 
 Após isso, clique em adicionar e seu servidor estará aberto para conexões externas.
 
-print 18
+![22 - i bulico](https://user-images.githubusercontent.com/58913096/104281241-fa369300-548b-11eb-9574-bb37ea45be41.png)
+
 
 na mesma aba, seu IP publico vai estar a cima, para acessar seu servidor de RP. Copie seu IP público e no painel do FiveM, coloque connect (e o ip que você copiou).
 
